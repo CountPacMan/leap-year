@@ -1,6 +1,6 @@
 # Leap Year for Epicodus
-## by Daniel Toader
-### Date: April 05, 2015
+## by Daniel Toader & Tom Mertz
+### Date: April 06, 2015
 #### Description
 This web app lets a user check whether a given year is a leap year.
 
@@ -8,9 +8,9 @@ This web app lets a user check whether a given year is a leap year.
 1. Clone this git repository
 2. Start the web app by loading leap-year.html in your browser
 
-#### Copyright © 2015, Daniel Toader
+#### Copyright © 2015, Daniel Toader & Tom Mertz
 
-#### License: [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE")  
+#### License: [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)  
 
 #### Technologies used
 - HTML5
