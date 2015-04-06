@@ -1,5 +1,5 @@
 function leapYear(year) {
-  return (year % 4 === 0) && (year % 100 != 0);
+  return (year % 4 === 0) && (year % 400 === 0 || year % 100 != 0);
 }
 
 jQuery(document).ready(function() {
@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
     var result = leapYear(year);
 
     $(".year").text(year);
-    result ? $(".not").empty() : $(".not").text("not");    
+    result ? $(".not").empty() : $(".not").text("not");
 
     $("#result").show();
     event.preventDefault();
